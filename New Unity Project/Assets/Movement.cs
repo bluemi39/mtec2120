@@ -18,19 +18,19 @@ public class Movement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.W))
         {
-            transform.Translate(0f, 0f, 10f * Time.deltaTime);
+            transform.Translate(0f, 0f, 30f * Time.deltaTime);
         }
         if (Input.GetKey(KeyCode.D))
         {
-            transform.Translate(10f * Time.deltaTime, 0f, 0f);
+            transform.Translate(30f * Time.deltaTime, 0f, 0f);
         }
         if (Input.GetKey(KeyCode.A))
         {
-            transform.Translate(-10f * Time.deltaTime, 0f, 0f);
+            transform.Translate(-30f * Time.deltaTime, 0f, 0f);
         }
         if (Input.GetKey(KeyCode.S))
         {
-            transform.Translate(0f, 0f, -10f * Time.deltaTime);
+            transform.Translate(0f, 0f, -30f * Time.deltaTime);
         }
     }
 
